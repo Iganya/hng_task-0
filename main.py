@@ -18,7 +18,7 @@ async def get_info():
     Returns basic information in JSON format.
     """
     return {
-        "email": "matthewiganga@gail.com",  
+        "email": "matthewiganga@gmail.com",  
         "current_datetime": datetime.utcnow().isoformat() + "Z",  # ISO 8601 format (UTC)
-        "github_url": "hhttps://github.com/Iganya/hng_task-0.git",  
+        "github_url": "hhttps://github.com/Iganya/hng_task-0",  
     }
