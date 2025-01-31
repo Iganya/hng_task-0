@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from datetime import datetime
+from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
@@ -12,13 +13,14 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
-@app.get("/", response_model=dict)
+@app.get("/")
 async def get_info():
     """
     Returns basic information in JSON format.
     """
-    return {
+    response_data = {
         "email": "matthewiganga@gmail.com",  
         "current_datetime": datetime.utcnow().isoformat() + "Z",  # ISO 8601 format (UTC)
-        "github_url": "hhttps://github.com/Iganya/hng_task-0",  
+        "github_url": "hhttps://github.com/Iganya/hng_task-0.git",  
     }
+    return JSONResponse(content=response_data, status_code=200)
