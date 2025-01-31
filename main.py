@@ -20,5 +20,5 @@ async def get_info():
     return {
         "email": "matthewiganga@gail.com",  
         "current_datetime": datetime.utcnow().isoformat() + "Z",  # ISO 8601 format (UTC)
-        "github_url": "https://github.com/iganya/hng_task0",  
+        "github_url": "hhttps://github.com/Iganya/hng_task-0.git",  
     }

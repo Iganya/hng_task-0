@@ -34,13 +34,14 @@ This is a simple public API built using FastAPI for the HNG12 Stage 0 task. The 
 
 ## Deployment
 The API is deployed to a publicly accessible endpoint.
-### **Deploy to Vercel**
-1. Sign up for a free account at [Vercel](https://vercel.com/).
-2. Import your GitHub repository.
-3. Set the following configuration:
-   - **Framework Preset**: Other
-   - **Build Command**: `pip install -r requirements.txt && uvicorn main:app --host 0.0.0.0 --port 10000`
-4. Deploy the service.
+### **Deploy to Render**
+1. Sign up for a free account at Render.
+2. Create a new Web Service.
+3. Connect your GitHub repository.
+4. Set the following configuration:
+5. Build Command: pip install -r requirements.txt
+6. Start Command: fastapi run main.py
+7. Deploy the service.
 
 
 ## API Documentation
@@ -52,28 +53,28 @@ The API is deployed to a publicly accessible endpoint.
 {
     "email": "matthewiganga@gail.com",
     "current_datetime": "2025-01-31T03:59:54.504837Z",
-    "github_url": "https://github.com/iganya/hng_task0"
+    "github_url": "https://github.com/Iganya/hng_task-0.git"
 }
 ```
 ## **Example Usage**
 
 1. **Make a GET request to the API**:
    ```bash
-   curl -X GET https://your-deployed-url/
+   curl -X GET https://hng-task-0-w5i6.onrender.com/
     ```
 2. **Example Response**:
 ```json
 {
     "email": "matthewiganga@gail.com",
     "current_datetime": "2025-01-31T03:59:54.504837Z",
-    "github_url": "https://github.com/iganya/hng_task0"
+    "github_url": "https://github.com/Iganya/hng_task-0.git"
 }
 ```
 
 
 ## Useful Links
 - [Hire Python Developers](https://hng.tech/hire/python-developers)
-- [Project GitHub Repository](https://github.com/yourusername/your-repo)
+- [Project GitHub Repository](https://github.com/Iganya/hng_task-0)
 
 ## License
 This project is open-source and available under the MIT License.
