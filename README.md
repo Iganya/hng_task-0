@@ -53,7 +53,7 @@ The API is deployed to a publicly accessible endpoint.
 {
     "email": "matthewiganga@gail.com",
     "current_datetime": "2025-01-31T03:59:54.504837Z",
-    "github_url": "https://github.com/Iganya/hng_task-0.git"
+    "github_url": "https://github.com/Iganya/hng_task-0"
 }
 ```
 ## **Example Usage**
@@ -67,7 +67,7 @@ The API is deployed to a publicly accessible endpoint.
 {
     "email": "matthewiganga@gail.com",
     "current_datetime": "2025-01-31T03:59:54.504837Z",
-    "github_url": "https://github.com/Iganya/hng_task-0.git"
+    "github_url": "https://github.com/Iganya/hng_task-0"
 }
 ```
 
